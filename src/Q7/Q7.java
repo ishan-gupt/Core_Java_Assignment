@@ -19,9 +19,9 @@ public class Q7 {
         });
         ArrayList<String[]> data = new ArrayList<>();
 
-        data.add(new String[] { "Shivam", "Kumar", "sk@gmail.com" });
-        data.add(new String[] { "Rajesh", "Irani", "ir@gmail.com" });
-        data.add(new String[] { "Anna", "Murpy", "am@gmail.com" });
+        data.add(new String[] { "Ishan", "Gupta", "ishangupta@gmail.com" });
+        data.add(new String[] { "Aryansh", "Gupta", "AryanshGupta@gmail.com" });
+        data.add(new String[] { "Alan", "Alex", "AlanAlex@gmail.com" });
 Iterator<String[]> i= data.iterator();
        while(i.hasNext()){
             ts.add(new Student(i.next()[0], i.next()[1], i.next()[2]));
