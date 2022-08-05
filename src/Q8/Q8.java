@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 class House {
-    System.out.println("This is House");
+    //System.out.println("This is House");
 }
 
 class Parents extends House {
-    System.out.println("This is Parents");
+    //System.out.println("This is Parents");
 }
 
 class Children extends Parents {
-    System.out.println("This is Children");
+    //System.out.println("This is Children");
 }
 public class Q8 {
     public static void ParentsAndDerivatives(List<? extends Parents> l1) {
@@ -31,12 +31,12 @@ public class Q8 {
         l1.add(new Children());
 
         ParentsAndDerivatives(l1);//no error
-        ParentsAndInverses(l1); //error
+        //ParentsAndInverses(l1); //error
 
         l2.add(new House());
         l2.add(new House());
 
         ParentsAndInverses(l2);//no error
-        ParentsAndDerivatives(l2);//error
+        //ParentsAndDerivatives(l2);//error
     }
 }
